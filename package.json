@@ -1,0 +1,50 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "description": "app_name is a system that provides Human Resources services to companies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon --exec npm run babel-node -- src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "babel-node": "babel-node --presets=@babel/preset-env",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaSP-m2022/Backend-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaSP-m2022/Backend-template/issues"
+  },
+  "homepage": "https://github.com/BaSP-m2022/Backend-template#readme",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.3.0",
+    "joi": "^17.6.3",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^7.0.4",
+    "jest": "^29.2.1",
+    "lint": "^0.7.0",
+    "mongodb-memory-server": "^7.5.0",
+    "supertest": "^6.3.0"
+  }
+}

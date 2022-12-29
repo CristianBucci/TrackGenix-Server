@@ -1,0 +1,73 @@
+import mongoose from 'mongoose';
+
+export default [{
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db7000326'),
+  name: 'Isahella',
+  lastName: 'Lanfer',
+  phone: '9616259010',
+  email: 'ilanfer0@joomla.org',
+  password: 'IW8uR6SapD',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db7000327'),
+  name: 'Clotilda',
+  lastName: 'Balazs',
+  phone: '1002253829',
+  email: 'cbalazs1@cbsnews.com',
+  password: 'jfwKN5QT7',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db7000328'),
+  name: 'Billie',
+  lastName: 'Dunton',
+  phone: '8648456509',
+  email: 'bdunton2@etsy.com',
+  password: '6f5MKr0E56',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db7000329'),
+  name: 'Nichols',
+  lastName: 'Glaysher',
+  phone: '9375810524',
+  email: 'nglaysher3@google.pl',
+  password: 'O9Xarx6QOuM',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db700032a'),
+  name: 'Winn',
+  lastName: 'Heaney`',
+  phone: '6066084847',
+  email: 'wheaney4@geocities.jp',
+  password: 'PdlAWwit8',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db700032b'),
+  name: 'Trixie',
+  lastName: 'Tenpenny',
+  phone: '5531221978',
+  email: 'ttenpenny5@tuttocitta.it',
+  password: 'I0lgfS388',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db700032c'),
+  name: 'Simeon',
+  lastName: 'Hrynczyk',
+  phone: '4162906219',
+  email: 'shrynczyk6@ustream.tv',
+  password: 'rAf6ErSon3S',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db700032d'),
+  name: 'Burlie',
+  lastName: 'Stuckford',
+  phone: '7564945052',
+  email: 'bstuckford7@symantec.com',
+  password: 'yIN4KfvfbV3x',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db700032e'),
+  name: 'Sarena',
+  lastName: 'Spollen',
+  phone: '2489997839',
+  email: 'sspollen8@linkedin.com',
+  password: '86CB78c1a6',
+}, {
+  _id: mongoose.Types.ObjectId('6354389ffc13ae2db700032f'),
+  name: 'Marlo',
+  lastName: 'Dottrell',
+  phone: '5653643487',
+  email: 'mdottrell9@apache.org',
+  password: 'A2fGOz1vW',
+}];
