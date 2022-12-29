@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const port = process.env.PORT;
 
-mongoose.connect(
+function deploy = mongoose.connect(
   process.env.MONGO_URL,
   (error) => {
     if (error) {
@@ -19,3 +19,5 @@ mongoose.connect(
     }
   },
 );
+
+export default deploy;
